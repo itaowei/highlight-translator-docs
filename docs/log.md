@@ -2,10 +2,18 @@
 
 ## v8.4.1（暂未发布） {#v8-4-1}
 
+#### 新功能 {#v8-4-1-features}
+
+- [#1101](https://github.com/lmk123/crx-selection-translate/issues/1101) 给图片翻译添加了“读取剪切板内的图片”的功能
+
 #### 功能改进 {#v8-4-1-improve}
 
 - [#1087](https://github.com/lmk123/crx-selection-translate/issues/1087) 将必应词典的网络释义显示出来。
 - [#1091](https://github.com/lmk123/crx-selection-translate/issues/1091) 将 DeepL 的“其它翻译结果”分行显示。
+
+#### bug 修复 {#v8-4-1-bug}
+
+- [#1096](https://github.com/lmk123/crx-selection-translate/issues/1096) 修复了语种选择下拉框被文本框遮挡的问题。
 
 ## v8.4.0 {#v8-4-0}
 
@@ -28,7 +36,7 @@
 
 ## v8.3.1 {#v8-3-1}
 
-#### bug 修复
+#### bug 修复 {#v8-3-1-bug}
 
 - 修复 Chrome / Edge 无法使用音视频功能的问题。
 
