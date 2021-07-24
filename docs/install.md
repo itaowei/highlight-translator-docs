@@ -79,4 +79,4 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
 
-另外，我不确定在 Edge 里“来自其它源”的划词翻译是否会自动更新，所以最好在 Edge 扩展商店的划词翻译更新到最新版本后，换用“来自 Microsoft Store”的划词翻译。
+另外，Edge 不会自动更新“来自其它源”的划词翻译，但你可以点击【更新】按钮（需要先打开【开发者模式】才会显示）来触发更新，点击之后，Edge 会从 Chrome 扩展商店中更新“来自其它源”的划词翻译。
