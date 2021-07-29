@@ -1,10 +1,14 @@
 # 更新日志
 
-## v8.4.2（未发布） {#v8-4-2}
+## v8.4.2 {#v8-4-2}
 
 #### 功能改进 {#v8-4-2-improve}
 
 - 将源语种选项改为跨页面生效（以前是修改源语种后只对当前页面生效，刷新页面或跳转到另一个页面就会重置为“自动检测”）
+- [#1035](https://github.com/lmk123/crx-selection-translate/issues/1035) 将网页全文翻译工具栏改为竖向的
+- [#1090](https://github.com/lmk123/crx-selection-translate/issues/1090) 给网页全文翻译添加“自动开启”的选项，勾选后即可在打开页面时自动开启网页全文翻译
+- [#1037](https://github.com/lmk123/crx-selection-translate/issues/1037) 让网页全文翻译记住了用户选择的双语 / 译文 / 原文选项，每次开启网页全文翻译时会默认显示为用户上次选择的选项
+- [#1021](https://github.com/lmk123/crx-selection-translate/issues/1021) 独立翻译窗口和扩展按钮弹窗现已支持自动翻译剪切板内的图片，具体使用方法见[这篇介绍](guides/extra.md)
 
 ## v8.4.1 {#v8-4-1}
 
