@@ -16,7 +16,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 ### Microsoft Edge 浏览器 {#edge}
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.3.4&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.4.1&color=informational&style=flat-square)
 ![Edge 扩展商店用户数](https://img.shields.io/static/v1?label=用户数高于&message=70k&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.7/5&color=success&style=flat-square)
 
