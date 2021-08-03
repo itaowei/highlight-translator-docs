@@ -1,6 +1,14 @@
 # 更新日志
 
-## v8.4.3（未发布） {#v8-4-3}
+## v8.4.3 {#v8-4-3}
+
+2021 年 8 月 4 日
+
+#### bug 修复 {#v8-4-3-bug}
+
+- [#1115](https://github.com/lmk123/crx-selection-translate/issues/1115) 修复 v8.4.2 中网页全文翻译功能失效的问题
+
+#### 功能改进 {#v8-4-3-improve}
 
 - [#554](https://github.com/lmk123/crx-selection-translate/issues/554) 给翻译按钮添加改变位置的选项，避免遮挡其它扩展的弹出按钮
 - [#912](https://github.com/lmk123/crx-selection-translate/issues/912) 当翻译面板宽度最小时，改进翻译结果的按钮换行问题
