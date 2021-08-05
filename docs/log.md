@@ -1,5 +1,17 @@
 # 更新日志
 
+## v8.5.0 {$v8-5-0}
+
+2021 年 8 月 5 日
+
+此版本只做了一件事情——重写了网页全文翻译的文本识别算法，解决了两个问题：
+
+- 文本翻译不全的问题：
+  - [#1022](https://github.com/lmk123/crx-selection-translate/issues/1022) [#1078](https://github.com/lmk123/crx-selection-translate/issues/1078) 这俩工单里提到的所有网站都测试了一遍，已确认全都可以完全翻译，不会有遗漏文本的情况。
+  - [#959](https://github.com/lmk123/crx-selection-translate/issues/959) Youtube 网站部分文本（特别是评论区）没有翻译的问题
+- 段落识别优化：[#1064](https://github.com/lmk123/crx-selection-translate/issues/1064) 针对段落里嵌套段落的情况做了优化，现已可识别嵌套段落的情况并逐个段落翻译。
+- [#1074](https://github.com/lmk123/crx-selection-translate/issues/1074) 修复了双语模式下，复制原文 + 译文时，中间没有换行的问题。
+
 ## v8.4.3 {#v8-4-3}
 
 2021 年 8 月 4 日
