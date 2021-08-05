@@ -39,3 +39,7 @@
 ### 按下了全局快捷键后，独立翻译窗口没有自动弹出
 
 请前往键盘快捷键页面（`chrome://extensions/shortcuts`）找到划词翻译的【打开独立翻译窗口】快捷键，并确认快捷键不为空，且快捷键后面显示为【全局】。
+
+### 独立翻译窗口弹出了，但没有自动翻译剪切板内的文本 / 截图
+
+请前往划词翻译的设置页面（在 Chrome 中的地址为 `chrome-extension://ikhdkkncnoglghljlkmcimlnlhkeamad/settings.html`），找到【通用设置】->【自动读取剪切板】，并确认勾选了【文本】和【图片】。
