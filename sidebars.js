@@ -10,7 +10,22 @@
  */
 
 module.exports = {
-  guidesSidebar: ['install', 'guides/welcome', 'guides/extra', 'guides/video'],
+  guidesSidebar: [
+    'install',
+    'guides/welcome',
+    {
+      type: 'category',
+      label: '功能介绍',
+      collapsed: false,
+      items: ['guides/pdf', 'guides/video'],
+    },
+    {
+      type: 'category',
+      label: '使用技巧',
+      collapsed: false,
+      items: ['guides/extra'],
+    },
+  ],
   servicesSidebar: [
     'services/intro',
     'services/custom-api',
