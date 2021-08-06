@@ -32,7 +32,13 @@ module.exports = {
       type: 'category',
       label: '各部分介绍',
       collapsed: false,
-      items: ['guides/panel', 'guides/popup', 'guides/options'],
+      items: [
+        'guides/panel',
+        'guides/options',
+        'guides/popup',
+        'guides/standalone',
+        'guides/pdfreader',
+      ],
     },
     {
       type: 'category',
