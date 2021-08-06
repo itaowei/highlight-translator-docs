@@ -9,6 +9,6 @@
 
 之后，划词翻译会弹出[翻译面板](panel.md)并翻译你选中的文本。在这些使用方式当中，只有“右键菜单选择【翻译选中的文本】”这一种方式可以在[扩展程序没有权限操作的页面](../faq.mdx#why-can-not-use-in-store)使用。
 
-在部分网站（例如 [Google 文档](https://docs.google.com/)、[腾讯文档](https://docs.qq.com/)和[石墨文档](https://shimo.im/)）可能无法使用，此时请使用[截图翻译](screenshot.md)。
+文档在线编辑类的网站里（例如 [Google 文档](https://docs.google.com/)、[腾讯文档](https://docs.qq.com/)和[石墨文档](https://shimo.im/)）可能无法使用，此时请使用[截图翻译](screenshot.md)。
 
 划词翻译支持丰富的设置可以自定义网页划词的行为，详情请在[设置页](options.md) > 【网页划词】中查看。
