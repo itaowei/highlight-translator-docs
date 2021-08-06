@@ -17,7 +17,7 @@ module.exports = {
       type: 'category',
       label: '功能介绍',
       collapsed: false,
-      items: ['guides/screenshot', 'guides/pdf', 'guides/video'],
+      items: ['guides/page', 'guides/screenshot', 'guides/pdf', 'guides/video'],
     },
     {
       type: 'category',
