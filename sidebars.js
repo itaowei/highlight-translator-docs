@@ -18,18 +18,27 @@ module.exports = {
       label: '功能介绍',
       collapsed: false,
       items: [
+        'guides/cross',
         'guides/page',
         'guides/screenshot',
         'guides/pdf',
         'guides/microphone',
         'guides/video',
+        'guides/fav',
+        'guides/history',
       ],
+    },
+    {
+      type: 'category',
+      label: '各部分介绍',
+      collapsed: false,
+      items: ['guides/panel', 'guides/popup', 'guides/options'],
     },
     {
       type: 'category',
       label: '使用技巧',
       collapsed: false,
-      items: ['guides/extra'],
+      items: ['guides/extra', 'guides/talk'],
     },
   ],
   servicesSidebar: [
