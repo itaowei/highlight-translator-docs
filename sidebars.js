@@ -11,6 +11,7 @@
 
 module.exports = {
   guidesSidebar: [
+    'guides/summary',
     'install',
     'guides/welcome',
     {
