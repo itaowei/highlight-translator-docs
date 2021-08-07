@@ -25,7 +25,7 @@ module.exports = {
       },
       items: [
         { to: '/docs/install/', label: '安装', position: 'right' },
-        { to: '/docs/guides/welcome/', label: '使用手册', position: 'right' },
+        { to: '/docs/guides/summary/', label: '使用手册', position: 'right' },
         { to: '/docs/faq/', label: '常见问题', position: 'right' },
         { to: '/docs/services/intro/', label: '服务申请', position: 'right' },
         { to: '/docs/log/', label: '更新日志', position: 'right' },
