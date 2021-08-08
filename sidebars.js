@@ -31,7 +31,13 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '各部分介绍',
+      label: '使用技巧',
+      collapsed: false,
+      items: ['guides/extra', 'guides/nobtn', 'guides/direct', 'guides/talk'],
+    },
+    {
+      type: 'category',
+      label: '组成部分',
       collapsed: false,
       items: [
         'guides/panel',
@@ -40,12 +46,6 @@ module.exports = {
         'guides/standalone',
         'guides/pdfreader',
       ],
-    },
-    {
-      type: 'category',
-      label: '使用技巧',
-      collapsed: false,
-      items: ['guides/extra', 'guides/talk'],
     },
   ],
   servicesSidebar: [
