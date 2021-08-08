@@ -56,6 +56,8 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 下载完成后可能会提示“无法从此网站安装扩展程序”，忽略它即可，此时离线安装包应该已经在你的下载文件夹里了。
 
+你可能会有的疑问：[为什么安装包的体积有 3.5 MB 这么大？](faq.mdx#fat)。
+
 ### 二、手动安装 {#install}
 
 1. 有了离线安装包之后，在 Chrome / Edge 浏览器里打开 `chrome://extensions/`。
@@ -70,8 +72,8 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 使用这种方式在 Chrome 中安装的划词翻译仍然会自动更新。如果你不想自动更新，可以按照以下步骤操作：
 
-  1. 将离线安装包的 `.crx` 后缀改为 `.zip` 并解压。
-  2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】，然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 manifest.json 文件，如果没有，说明你选错文件夹了。
+1. 将离线安装包的 `.crx` 后缀改为 `.zip` 并解压。
+2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】，然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 manifest.json 文件，如果没有，说明你选错文件夹了。
 
 注意：旧版本可能会存在 bug，请尽量不要停留在旧版本。
 
