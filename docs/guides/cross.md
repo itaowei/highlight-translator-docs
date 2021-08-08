@@ -12,3 +12,8 @@
 文档在线编辑类的网站里（例如 [Google 文档](https://docs.google.com/)、[腾讯文档](https://docs.qq.com/)和[石墨文档](https://shimo.im/)）可能无法使用，此时请使用[截图翻译](screenshot.md)。
 
 划词翻译支持丰富的设置可以自定义网页划词的行为，详情请在[设置页](options.md) > 【网页划词】中查看。
+
+相关文档：
+
+- [不想总是弹出翻译按钮](nobtn.md)
+- [直接显示翻译结果](direct.md)
