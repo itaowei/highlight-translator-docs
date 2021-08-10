@@ -1,10 +1,14 @@
 # 更新日志
 
-## v8.5.1（未发布） {#v8-5-1}
+## v8.5.1 {#v8-5-1}
+
+2021 年 8 月 10 日
 
 #### bug 修复 {#v8-5-1-bug}
 
-- [#1119](https://github.com/lmk123/crx-selection-translate/issues/1119) 修复网页全文翻译在 youtube 网站切换双语 / 原文 / 译文时失败的问题。
+- [#1116](https://github.com/lmk123/crx-selection-translate/issues/1116) 修复翻译按钮错位的问题。
+- [#1119](https://github.com/lmk123/crx-selection-translate/issues/1119) 修复网页全文翻译在部分网站（已知的有 Youtube）切换双语 / 原文 / 译文时失败的问题。
+- [#1108](https://github.com/lmk123/crx-selection-translate/issues/1108) 修复翻译结果遮挡了语种下拉框的问题。
 
 ## v8.5.0 {#v8-5-0}
 
