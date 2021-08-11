@@ -89,7 +89,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 这样一来，划词翻译会以文件夹的形式安装在 Chrome 浏览器中，会成为一个 ID **不是** `ikhdkkncnoglghljlkmcimlnlhkeamad` 的本地扩展程序，且会一直停留在这个版本。
 
-但是请注意：旧版本也可能会存在 bug，请不要停留在旧版本，应该在新版本审核通过后删除这个本地扩展程序，然后重新启用在 Chrome 扩展商店或通过离线安装包安装的划词翻译（即 ID 为 `ikhdkkncnoglghljlkmcimlnlhkeamad` 的划词翻译）。
+但是请注意：旧版本也可能会存在 bug，请不要停留在旧版本，应该在新版本审核通过后删除这个本地扩展程序，然后重新启用 ID 为 `ikhdkkncnoglghljlkmcimlnlhkeamad` 的划词翻译。
 
 #### Edge 里的划词翻译离线安装包不会自动更新
 
