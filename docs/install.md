@@ -70,7 +70,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 #### 离线安装包在 Chrome 中会自动更新
 
-使用这种方式在 Chrome 中安装的划词翻译仍然会自动更新。如果你不想自动更新，可以按照以下步骤操作：
+通过离线安装包安装的划词翻译跟在 Chrome 扩展商店安装或自动更新的划词翻译是完全一样的，所以在 Chrome 中仍然会自动更新。如果你不想自动更新，可以按照以下步骤操作：
 
 1. 将离线安装包的 `.crx` 后缀改为 `.zip` 并解压。
 2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】，然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 manifest.json 文件，如果没有，说明你选错文件夹了。
@@ -79,6 +79,6 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 #### Edge 注意事项
 
-在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
+在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），跟你在 Edge 里通过 Chrome 扩展商店安装的划词翻译是同一个，不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
 
 另外，Edge 不会自动更新“来自其它源”的划词翻译，但你可以点击【更新】按钮（需要先打开【开发者模式】才会显示）来触发更新，点击之后，Edge 会从 Chrome 扩展商店中更新“来自其它源”的划词翻译。
