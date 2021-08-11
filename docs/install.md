@@ -52,32 +52,46 @@ import { LatestVersion } from '../src/components/LatestVersion'
 链接: [https://pan.baidu.com/s/17zF7AksigMwLh8McRBVG0w](https://pan.baidu.com/s/17zF7AksigMwLh8McRBVG0w)
 提取码: `hmat`
 
+进入“划词翻译离线安装包”文件夹后，会看到划词翻译的各个版本的离线安装包。离线安装包是后缀为 `.crx` 的文件，命名格式为“划词翻译vX.X.X用于Chrome和Edge.crx”，其中 “X.X.X” 是划词翻译的版本号，你可以下载你想要的版本的离线安装包。
+
 下载前可能会提示“此类型的文件可能会损害您的计算机，您仍然要保留吗？”，选择“保留”。
 
 下载完成后可能会提示“无法从此网站安装扩展程序”，忽略它即可，此时离线安装包应该已经在你的下载文件夹里了。
 
-你可能会有的疑问：[为什么安装包的体积有 3.5 MB 这么大？](faq.mdx#fat)。
+你可能会有的疑问：[为什么安装包的体积有 3.5 MB 这么大？](faq.mdx#fat)
 
 ### 二、手动安装 {#install}
 
 1. 有了离线安装包之后，在 Chrome / Edge 浏览器里打开 `chrome://extensions/`。
 2. 打开【开发者模式】。这个开关在 Chrome 的右上角、Edge 的左下角。
-3. 将离线安装包拖放到这个页面。
+3. 如果你已经安装过划词翻译，且离线安装包的版本**低于**你已经安装的划词翻译，那么请先移除你已经安装的划词翻译。
+4. 将离线安装包拖放到这个页面。
 
 大功告成！
 
-### 注意 {#note}
+### 注意事项 {#note}
 
 #### 离线安装包在 Chrome 中会自动更新
 
-通过离线安装包安装的划词翻译跟在 Chrome 扩展商店安装或自动更新的划词翻译是完全一样的，所以在 Chrome 中仍然会自动更新。如果你不想自动更新，可以按照以下步骤操作：
+通过离线安装包安装的划词翻译跟在 Chrome 扩展商店安装的划词翻译是完全一样的，这意味着：
+
+- 它在 Chrome 中仍然会自动更新。
+- 它跟在 Chrome 扩展商店里安装的划词翻译有同样的 ID `ikhdkkncnoglghljlkmcimlnlhkeamad`。
+
+#### 如果你不想让离线安装包在 Chrome 中自动更新
+
+如果最新版本有很严重的 bug 且迟迟没有审核通过，那么你可能需要停留在旧版本一段时间。你可以按照如下方式操作：
 
 1. 将离线安装包的 `.crx` 后缀改为 `.zip` 并解压。
-2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】，然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 manifest.json 文件，如果没有，说明你选错文件夹了。
+2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】。
+3. 如果你已经安装过划词翻译（ID 为 `ikhdkkncnoglghljlkmcimlnlhkeamad`），请先关闭它。
+4. 然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 `manifest.json` 文件，如果没有，说明你选错文件夹了，Chrome 会报“清单文件缺失或不可读取”的错误。
 
-注意：旧版本可能会存在 bug，请尽量不要停留在旧版本。
+这样一来，划词翻译会以文件夹的形式安装在 Chrome 浏览器中，会成为一个 ID **不是** `ikhdkkncnoglghljlkmcimlnlhkeamad` 的本地扩展程序，且会一直停留在这个版本。
 
-#### Edge 注意事项
+但是请注意：旧版本也可能会存在 bug，请不要停留在旧版本，应该在新版本审核通过后删除这个本地扩展程序，然后重新启用在 Chrome 扩展商店或通过离线安装包安装的划词翻译（即 ID 为 `ikhdkkncnoglghljlkmcimlnlhkeamad` 的划词翻译）。
+
+#### Edge 里的划词翻译离线安装包不会自动更新
 
 在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），跟你在 Edge 里通过 Chrome 扩展商店安装的划词翻译是同一个，不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
 
