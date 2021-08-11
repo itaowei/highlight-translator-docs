@@ -35,6 +35,10 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 请前往 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。
 
+### Safari 浏览器 {#safair}
+
+划词翻译目前还不支持 Safari 浏览器，但你可以通过[翻译浏览器外的内容](guides/extra.md)的方式在 Safari 里使用划词翻译。
+
 ## 下载离线安装包手动安装 {#offline}
 
 在某些情况下，你可能更希望下载离线安装包安装划词翻译，比如：
@@ -95,4 +99,26 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），跟你在 Edge 里通过 Chrome 扩展商店安装的划词翻译是同一个，不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
 
-另外，Edge 不会自动更新“来自其它源”的划词翻译，但你可以点击【更新】按钮（需要先打开【开发者模式】才会显示）来触发更新，点击之后，Edge 会从 Chrome 扩展商店中更新“来自其它源”的划词翻译。
+另外，Edge 不会自动更新“来自其它源”的划词翻译，但你可以手动更新“来自其它源”的划词翻译，步骤见下文。
+
+## 手动更新划词翻译的方式 {#manual}
+
+当划词翻译的最新版本通过审核后，你可以通过手动更新的方式将划词翻译更新到最新版本。
+
+### Chrome / Edge 手动更新的步骤
+
+1. 打开扩展管理页面（`chrome://extensions`）
+2. 开启【开发者模式】。这个开关在 Chrome 的右上角、Edge 的左下角。
+3. 点击【更新】按钮，然后等待划词翻译的版本号更新为最新版本 <LatestVersion />。
+
+### Firefox 手动更新的步骤
+
+1. 鼠标右键点击浏览器地址栏右侧的划词翻译图标，选择【管理扩展】，会打开划词翻译的扩展详情页。
+2. 点击右上角的齿轮图标，选择【检查更新】
+3. 如果有新版本，那么齿轮图标下方的三个点“···”图标右上角会显示一个点。点击这个图标，选择【立即更新】，然后等待划词翻译的版本号更新为最新版本 <LatestVersion />。
+
+### 注意事项
+
+在更新前打开的标签页里，划词翻译是无效的，需要刷新一下标签页才会生效。最好在更新完成后重启一下浏览器确保划词翻译完全生效。
+
+如果版本号一直没有变化，请确认商店里的版本是否是最新版本、你是否能正常打开 Chrome 扩展商店。
