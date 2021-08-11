@@ -15,8 +15,8 @@
     "text": "v8.5.1 的划词翻译在 Chrome 中会出现划词后无响应、设置页打不开等问题，我已提交了 v8.5.2 解决了这个问题，在通过审核之前，你可以通过离线安装包立刻安装 v8.5.2 版本。详情请点击下方的“查看详情”链接。",
     "link": "https://hcfy.limingkai.cn/blog/2021/08/11/crash",
     "filter": {
-      "versionStart": "8.5.2",
-      "versionEnd": "8.5.2"
+      "versionStart": "8.5.1",
+      "versionEnd": "8.5.1"
     }
   }
 ]
