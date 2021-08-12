@@ -33,7 +33,13 @@ module.exports = {
       type: 'category',
       label: '使用技巧',
       collapsed: false,
-      items: ['guides/extra', 'guides/nobtn', 'guides/direct', 'guides/talk'],
+      items: [
+        'guides/extra',
+        'guides/nobtn',
+        'guides/direct',
+        'guides/talk',
+        'guides/firefox',
+      ],
     },
     {
       type: 'category',

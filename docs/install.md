@@ -33,9 +33,9 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ![Firefox 扩展商店评分](https://img.shields.io/amo/rating/hcfy?style=flat-square&label=评分)
 ![Firefox 扩展商店周下载量](https://img.shields.io/amo/dw/hcfy?style=flat-square&label=周下载量)
 
-请前往 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。
+请前往 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。使用之前，请阅读 [Firefox 使用须知](guides/firefox.md)。
 
-### Safari 浏览器 {#safair}
+### Safari 浏览器 {#safari}
 
 划词翻译目前还不支持 Safari 浏览器，但你可以通过[翻译浏览器外的内容](guides/extra.md)的方式在 Safari 里使用划词翻译。
 
@@ -56,7 +56,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 链接: [https://pan.baidu.com/s/17zF7AksigMwLh8McRBVG0w](https://pan.baidu.com/s/17zF7AksigMwLh8McRBVG0w)
 提取码: `hmat`
 
-进入“划词翻译离线安装包”文件夹后，会看到划词翻译的各个版本的离线安装包。离线安装包是后缀为 `.crx` 的文件，命名格式为“划词翻译vX.X.X用于Chrome和Edge.crx”，其中 “X.X.X” 是划词翻译的版本号，你可以下载你想要的版本的离线安装包。
+进入“划词翻译离线安装包”文件夹后，会看到划词翻译的各个版本的离线安装包。离线安装包是后缀为 `.crx` 的文件，命名格式为“划词翻译 vX.X.X 用于 Chrome 和 Edge.crx”，其中 “X.X.X” 是划词翻译的版本号，你可以下载你想要的版本的离线安装包。
 
 下载前可能会提示“此类型的文件可能会损害您的计算机，您仍然要保留吗？”，选择“保留”。
 
@@ -104,6 +104,8 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ## 手动更新划词翻译的方式 {#manual}
 
 当划词翻译的最新版本通过审核后，你可以通过手动更新的方式将划词翻译更新到最新版本。
+
+> 虽然卸载划词翻译后去 Chrome 扩展商店重新安装也能安装到最新版本的划词翻译，但卸载划词翻译会导致你的设置、历史记录和收藏夹丢失。
 
 ### Chrome / Edge 手动更新的步骤
 

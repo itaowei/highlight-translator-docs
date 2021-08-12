@@ -1,0 +1,27 @@
+# Firefox 使用须知
+
+由于 Firefox 自身的兼容性问题，划词翻译在 Firefox 里的使用体验跟 Chrome / Edge 相比会稍差一些。
+
+目前已知的不同之处有以下几点。
+
+## Firefox 不允许扩展程序访问本地文件
+
+这会影响到以下功能：
+
+- 当你将 PDF 文件拖放到 Firefox 中，划词翻译无法自动在[内置 PDF 阅读器](pdf.md)里打开你的 PDF 文件。请先打开内置 PDF 阅读器，然后将 PDF 拖放到内置 PDF 阅读器里。
+- 当你将电脑里的其它文件（如 `.html`、`.txt`）拖放到 Firefox 中，划词翻译无法在这些（即网址以 `file://` 开头的）文件上使用。
+
+相比之下，Chrome / Edge 允许你自行决定是否[允许划词翻译访问你的本地文件](../faq.mdx#file-url)。
+
+## Firefox 不支持全局快捷键
+
+全局快捷键的意思是指在其它软件中按下后，也能让划词翻译响应的快捷键，划词翻译利用这一特性[翻译浏览器外的内容](extra.md)。
+
+由于 Firefox 不支持全局快捷键，所以请在浏览器外复制文本 / 图片后，先切回到 Firefox 里再按下快捷键。
+
+## Firefox 有一些奇奇怪怪的 bug
+
+Firefox 有一些特有的 bug，虽然我已经解决了大部分，但以下 bug 目前仍未解决：
+
+- [#1134](https://github.com/lmk123/crx-selection-translate/issues/1134) Firefox 里的划词翻译在获取翻译结果时会经常报 “Promised response from onMessage listener went out of scope” 的错误。这个 bug 是 [Firefox 自己的问题且一直未解决](https://bugzilla.mozilla.org/show_bug.cgi?id=1643186)。
+- [#1133](https://github.com/lmk123/crx-selection-translate/issues/1133) Firefox 的[扩展弹出页](popup.md)在翻译长文本时会出现横向滚动条，而且偶尔会无法纵向滚动。由于 Firefox 似乎没法调试扩展弹出页的代码，所以目前我没办法解决这个问题。建议使用独立翻译窗口代替扩展弹出页，因为独立翻译窗口可以调整宽度，将宽度调宽一点就不会出现滚动条了。
