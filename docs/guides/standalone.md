@@ -8,3 +8,11 @@
 
 - 打开[扩展程序弹出页](popup.md)，点击【独立翻译窗口】按钮。
 - 在[设置页](options.md)配置好全局快捷键后，使用快捷键打开。
+
+## 独立翻译窗口如何置顶？ {#always-on-top}
+
+由于扩展程序没有能力将独立翻译窗口置顶，所以这个功能只能通过第三方软件实现。
+
+Windows 系统可以使用这个软件：[DeskPins](https://efotinis.neocities.org/deskpins/index.html)
+
+在 macOS 系统我没有用过类似的窗口置顶的软件，就不推荐了，大家可以自行寻找。
