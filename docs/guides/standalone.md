@@ -15,4 +15,4 @@
 
 Windows 系统可以使用这个软件：[DeskPins](https://efotinis.neocities.org/deskpins/index.html)
 
-在 macOS 系统我没有用过类似的窗口置顶的软件，就不推荐了，大家可以自行寻找。
+在 macOS 系统我没有用过窗口置顶的软件，就不推荐了，如果你找到了比较好用的软件可以推荐给我，我会写在这里。
