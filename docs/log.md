@@ -1,5 +1,15 @@
 # 更新日志
 
+# v8.5.3.1（未发布） {#v8-5-3-1}
+
+这个版本对底层代码进行了比较大的调整，为了避免出现问题，会缩小发布范围。调整内容为：将 Chrome / Edge / Firefox 三个浏览器的安装包整合为一个，以避免再出现 [#1125](https://github.com/lmk123/crx-selection-translate/issues/1125) 的问题。
+
+其它改进有：
+
+- [#1130](https://github.com/lmk123/crx-selection-translate/issues/1130) 兼容其它插件的阅读模式，让网页划词和网页全文翻译可以在阅读模式下正常使用。
+- [#1123](https://github.com/lmk123/crx-selection-translate/issues/1123) 当开启代理使用必应词典导致无翻译结果时，更新了错误说明。
+- [#1128](https://github.com/lmk123/crx-selection-translate/issues/1128) 当使用 Tesseract OCR 时，将截图翻译的提示内容改为了指向文档站的链接，且修复了在独立翻译窗口 / 扩展弹出页中没有提示链接的问题。
+
 ## v8.5.2 {#v8-5-2}
 
 2021 年 8 月 11 日
