@@ -1,8 +1,10 @@
 # 更新日志
 
-## v8.5.3.1（未发布） {#v8-5-3-1}
+## v8.5.3.1 {#v8-5-3-1}
 
-这个版本对底层代码进行了比较大的调整，为了避免出现问题，会缩小发布范围。调整内容为：将 Chrome / Edge / Firefox 三个浏览器的安装包整合为一个，以避免再出现 [#1125](https://github.com/lmk123/crx-selection-translate/issues/1125) 的问题。
+2021 年 8 月 15 日
+
+这个版本对底层代码进行了比较大的调整，为了避免出现问题，会缩小发布范围。调整内容为：将 Chrome / Edge 和 Firefox 的安装包整合为一个，以避免再出现误将 Firefox 安装包发布到 Chrome 上导致 [#1125](https://github.com/lmk123/crx-selection-translate/issues/1125) 的问题。
 
 其它改进有：
 
