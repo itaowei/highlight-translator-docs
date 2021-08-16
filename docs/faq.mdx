@@ -61,68 +61,68 @@
 
 首先，请确认你没有[修改划词翻译的权限范围](guides/options.md#per)。
 
-如果没有，那么大概率是因为你开启了代理软件，请关闭代理或将各服务的地址加入直连名单后重试。
+如果没有，那么大概率是因为你开启了代理软件，请关闭代理或将各服务的域名加入直连名单后重试。
 
 <details style={{ marginBottom: 20 }}>
-  <summary>点击查看各服务的地址</summary>
+  <summary>点击查看各服务的域名</summary>
   <table>
     <thead>
       <tr>
         <th>服务名称</th>
-        <th>服务地址</th>
+        <th>服务域名</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>划词翻译的相关服务</td>
+        <td>划词翻译的相关服务<br/>（登录、注册、翻译积分等）</td>
         <td>
-          <code>https://hs-api.limingkai.cn</code>
+          <code>hs-api.limingkai.cn</code>
         </td>
       </tr>
       <tr>
         <td>必应词典</td>
-        <td><code>https://cn.bing.com</code></td>
+        <td><code>cn.bing.com</code></td>
       </tr>
       <tr>
         <td>百度翻译</td>
         <td>
-          <code>https://fanyi-api.baidu.com</code>
+          <code>fanyi-api.baidu.com</code>
         </td>
       </tr>
       <tr>
         <td>腾讯翻译君</td>
         <td>
-          <code>https://tmt.ap-shanghai.tencentcloudapi.com</code>
+          <code>tmt.ap-shanghai.tencentcloudapi.com</code>
         </td>
       </tr>
       <tr>
         <td>彩云小译</td>
         <td>
-          <code>https://api.interpreter.caiyunai.com</code>
+          <code>api.interpreter.caiyunai.com</code>
         </td>
       </tr>
       <tr>
         <td>阿里翻译</td>
         <td>
-          <code>https://mt.cn-hangzhou.aliyuncs.com</code>
+          <code>mt.cn-hangzhou.aliyuncs.com</code>
         </td>
       </tr>
       <tr>
         <td>搜狗翻译</td>
         <td>
-          <code>https://https://fanyi.sogou.com</code>
+          <code>fanyi.sogou.com</code>
         </td>
       </tr>
       <tr>
         <td>有道翻译</td>
         <td>
-          <code>https://openapi.youdao.com</code>
+          <code>openapi.youdao.com</code>
         </td>
       </tr>
       <tr>
         <td>百度通用文字识别</td>
         <td>
-          <code>https://aip.baidubce.com</code>
+          <code>aip.baidubce.com</code>
         </td>
       </tr>
     </tbody>
@@ -139,13 +139,13 @@
 
 如果打不开，那么有以下几种可能：
 
-- 你开启了代理软件。请关闭代理，或者将 `https://hs-api.limingkai.cn` 加入直连名单后重试。
+- 你开启了代理软件。请关闭代理，或者将 `hs-api.limingkai.cn` 加入直连名单后重试。
 - 划词翻译的服务器真的挂了（但是这种情况概率很低）。请[联系我](issues.mdx)告知这一情况。
 
 如果能打开，那么确认一下浏览器地址栏开头是否有“不安全”这三个红色的字。如果有的话；
 
 - 你可以返回划词翻译试着重新注册 / 登录账号，现在应该恢复正常了。
-- 如果还是不能，那说明划词翻译服务器的证书过期了（但这种情况概率很低）。请[联系我](issues.mdx)告知这一情况。
+- 划词翻译服务器的证书过期了（但这种情况概率很低）。请[联系我](issues.mdx)告知这一情况。
 
 ## 为什么不能在某些页面如 Chrome / Firefox / Edge 扩展商店里使用？ {#why-can-not-use-in-store}
 
