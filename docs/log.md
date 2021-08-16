@@ -10,6 +10,7 @@
 
 - [#1112](https://github.com/lmk123/crx-selection-translate/issues/1112) 给网页全文翻译的“自动开启”功能加上“在当前窗口中”的限制，这样用户就可以把需要自动开启的标签页移到另一个窗口里，专门用来查看需要全文翻译的网站。
 - [#1026](https://github.com/lmk123/crx-selection-translate/issues/1026) 改善网页全文翻译在往下滚动时偶尔需要等待翻译结果出现的情况。
+- [#1070](https://github.com/lmk123/crx-selection-translate/issues/1070) 为避免网页全文翻译的右小角的面板遮挡网页内容，所以开启网页全文翻译后会自动隐藏面板，只露出一个展开按钮，鼠标移动到按钮上才显示完整的面板。
 
 ### bug 修复 {#v8-5-4-bug}
 
