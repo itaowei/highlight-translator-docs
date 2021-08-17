@@ -2,17 +2,18 @@
 
 ## v8.5.4（未发布） {#v8-5-4}
 
-### 新功能 {#v8-5-4-features}
+#### 新功能 {#v8-5-4-features}
 
 - [#1093](https://github.com/lmk123/crx-selection-translate/issues/1093) 添加将次要目标语种“动态的设置为上次翻译的文本的语种”的功能。[查看说明](guides/talk.md#latest-source)
 
-### 功能改进 {#v8-5-4-improve}
+#### 功能改进 {#v8-5-4-improve}
 
 - [#1112](https://github.com/lmk123/crx-selection-translate/issues/1112) 给网页全文翻译的“自动开启”功能加上“在当前窗口中”的限制，这样用户就可以把需要自动开启的标签页移到另一个窗口里，专门用来查看需要全文翻译的网站。
 - [#1026](https://github.com/lmk123/crx-selection-translate/issues/1026) 改善网页全文翻译在往下滚动时偶尔需要等待翻译结果出现的情况。
 - [#1070](https://github.com/lmk123/crx-selection-translate/issues/1070) 为避免网页全文翻译的右小角的面板遮挡网页内容，所以开启网页全文翻译后会自动隐藏面板，只露出一个展开按钮，鼠标移动到按钮上才显示完整的面板。
+- [#1121](https://github.com/lmk123/crx-selection-translate/issues/1121) [#1124](https://github.com/lmk123/crx-selection-translate/issues/1124) 改善网页全文翻译在双语对照模式下的页面排版。
 
-### bug 修复 {#v8-5-4-bug}
+#### bug 修复 {#v8-5-4-bug}
 
 - [#1139](https://github.com/lmk123/crx-selection-translate/issues/1139) 修复自 v8.5.0 版本起，网页全文翻译的翻译结果不准确的问题。
 
