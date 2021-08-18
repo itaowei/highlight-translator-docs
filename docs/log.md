@@ -1,5 +1,13 @@
 # 更新日志
 
+## v8.5.5 {#v8-5-5}
+
+2021 年 8 月 18 日
+
+#### bug 修复 {#v8-5-5-bug}
+
+- [#1142](https://github.com/lmk123/crx-selection-translate/issues/1142) 修复 v8.5.4 中，以“译文”选项开启网页全文翻译时页面无反应的问题
+
 ## v8.5.4 {#v8-5-4}
 
 2021 年 8 月 18 日
@@ -37,7 +45,7 @@
 
 #### bug 修复 {#v8-5-2-bug}
 
-- [#1125](https://github.com/lmk123/crx-selection-translate/issues/1125) 修复在 Chrome 中划词后无响应、设置页打不开的问题。
+- [#1125](https://github.com/lmk123/crx-selection-translate/issues/1125) 修复 v8.5.1 中，在 Chrome 中划词后无响应、设置页打不开的问题。
 
 ## v8.5.1 {#v8-5-1}
 
