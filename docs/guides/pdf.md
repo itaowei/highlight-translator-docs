@@ -23,11 +23,11 @@
 
 <details>
 <summary>为什么不修复这个问题？</summary>
-划词翻译的内置 PDF 阅读器使用的是第三方的 <a href="https://mozilla.github.io/pdf.js/" target="_blank" rel="noreferrer noopener">PDF.js</a>，这个问题 PDF.js 一直没有修复，而由我自己来修复的话就会有以下两个问题：
-<ul>
-<li>1. 难度很大，可能会耗费大量时间而且不能成功修复。</li>
-<li>2. 即使我能修复这个问题，那以后升级 PDF.js 的版本时我就得始终确保我的修复代码跟它们的新版本是兼容的。</li>
-</ul>
+<p>划词翻译的内置 PDF 阅读器使用的是第三方的 <a href="https://mozilla.github.io/pdf.js/" target="_blank" rel="noreferrer noopener">PDF.js</a>，这个问题 PDF.js 一直没有修复，而由我自己来修复的话就会有以下两个问题：</p>
+<ol>
+<li>难度很大，可能会耗费大量时间而且不能成功修复。</li>
+<li>即使我能修复这个问题，那以后升级 PDF.js 的版本时我就得始终确保我的修复代码跟它们的新版本是兼容的。</li>
+</ol>
 综合来看，直接用截图翻译的形式更简单便捷。
 </details>
 
