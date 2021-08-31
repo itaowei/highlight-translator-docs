@@ -19,7 +19,17 @@
 
 ### 划选的文本缺少空白、换行符 {#br}
 
-这是 [PDF.js](https://mozilla.github.io/pdf.js/) 的问题，划词翻译无法解决，建议使用[截图翻译](./screenshot.md)翻译长文本。
+这个问题短期内无法修复，遇到这种情况时，请使用[截图翻译](./screenshot.md)。
+
+<details>
+<summary>为什么不修复这个问题？</summary>
+划词翻译的内置 PDF 阅读器使用的是第三方的 <a href="https://mozilla.github.io/pdf.js/" target="_blank" rel="noreferrer noopener">PDF.js</a>，这个问题 PDF.js 一直没有修复，而由我自己来修复的话就会有以下两个问题：
+<ul>
+<li>1. 难度很大，可能会耗费大量时间而且不能成功修复。</li>
+<li>2. 即使我能修复这个问题，那以后升级 PDF.js 的版本时我就得始终确保我的修复代码跟它们的新版本是兼容的。</li>
+</ul>
+综合来看，直接用截图翻译的形式更简单便捷。
+</details>
 
 ### 网页全文翻译功能无效 {#page}
 

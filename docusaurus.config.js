@@ -17,13 +17,6 @@ module.exports = {
     locales: ['zh-Hans'],
   },
   themeConfig: {
-    announcementBar: {
-      id: '8-5-1-crash', // Any value that will identify this message.
-      content:
-        '<a rel="noopener noreferrer" href="https://hcfy.limingkai.cn/blog/2021/08/11/crash">8 月 11 日更新 v8.5.1 后划词翻译无法使用（划词后无响应、设置页打不开等）的解决方案</a>',
-      textColor: '#ff0000',
-      isCloseable: false,
-    },
     navbar: {
       title: '划词翻译',
       logo: {

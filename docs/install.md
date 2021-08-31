@@ -16,15 +16,16 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 ### Microsoft Edge 浏览器 {#edge}
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.5.2&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.5.5&color=informational&style=flat-square)
 ![Edge 扩展商店用户数](https://img.shields.io/static/v1?label=用户数高于&message=70k&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.7/5&color=success&style=flat-square)
 
 请前往 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。
 
-:::note 为什么 Edge 的版本经常落后于最新版本？
-由于 Edge 扩展商店需要 10 个工作日左右的审核时间，所以 Edge 扩展商店的版本经常比最新版本要落后，你可以通过下面的离线安装包的方式安装最新版本。
-:::
+<details>
+<summary>为什么 Edge 的版本经常落后于最新版本？</summary>
+Edge 扩展商店需要 10 个工作日左右的审核时间，所以 Edge 扩展商店的版本经常比最新版本要落后，你可以用 Edge 浏览器从 Chrome 扩展商店里安装最新版本，或者通过下面的离线安装包的方式安装。
+</details>
 
 ### Mozilla Firefox 浏览器 {#firefox}
 
