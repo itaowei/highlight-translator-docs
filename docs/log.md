@@ -1,5 +1,12 @@
 # 更新日志
 
+## v8.5.7（未发布） {#v8-5-7}
+
+#### 功能改进 {#v8-5-7-improve}
+
+- [#1146](https://github.com/lmk123/crx-selection-translate/issues/1146) 完善网页全文翻译的链接识别逻辑。
+- [#815](https://github.com/lmk123/crx-selection-translate/issues/815) 将”拖动后自动切换为固定模式“做成了一个选项并可以关闭。
+
 ## v8.5.6 {#v8-5-6}
 
 2021 年 9 月 2 日
