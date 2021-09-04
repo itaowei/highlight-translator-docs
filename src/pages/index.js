@@ -26,23 +26,9 @@ function HomepageHeader() {
   )
 }
 
-function useSetInvitor() {
-  useEffect(() => {
-    const { search, hostname } = window.location
-    if (search.startsWith('?i=')) {
-      const invitor = search.slice(3)
-      if (hostname === 'hcfy.limingkai.cn') {
-        document.cookie = `i=${invitor}; domain=limingkai.cn`
-      } else {
-        document.cookie = `i=${invitor}`
-      }
-    }
-  }, [])
-}
-
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
-  useSetInvitor()
+
   return (
     <Layout title="首页" description={siteConfig.tagline}>
       <HomepageHeader />

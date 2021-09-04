@@ -5,7 +5,7 @@ module.exports = {
   },
   title: '划词翻译',
   tagline: '一站式划词 / 截图 / 网页全文 / 音视频翻译扩展',
-  url: 'https://hcfy.limingkai.com',
+  url: 'https://hcfy.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,6 +16,7 @@ module.exports = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  clientModules: [require.resolve('./src/redirects.js')],
   themeConfig: {
     navbar: {
       title: '划词翻译',
