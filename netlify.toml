@@ -1,8 +1,4 @@
 [[redirects]]
-  from = "https://hcfy.limingkai.cn/*"
-  to = "https://hcfy.app/:splat"
-
-[[redirects]]
   from = "/baidu-api.html"
   to = "/docs/services/baidu-api"
 

@@ -110,7 +110,7 @@ function getResultFromCY(params) {
           headers: {
             // `3975l6lr5pcbvidl6jl2` 是彩云小译提供的测试用 Token，
             // 如果调用失败，可以参考以下链接申请一个正式的 Token
-            // https://hcfy.limingkai.cn/services/caiyun-api.html
+            // https://hcfy.app/docs/services/caiyun-api/
             'X-Authorization': 'token 3975l6lr5pcbvidl6jl2',
           },
         },

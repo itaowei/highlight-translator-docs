@@ -3,7 +3,7 @@
     "id": 6,
     "title": "网页全文翻译失效的解决方案",
     "text": "v8.4.2 的划词翻译有一个 bug 会导致网页全文翻译失效，我已提交了 v8.4.3 解决了这个问题，在通过审核之前，你可以通过离线安装包立刻安装 v8.4.3 版本。详情请点击下方的“查看详情”链接。",
-    "link": "https://hcfy.limingkai.cn/blog/2021/08/03/page-translate-issue",
+    "link": "https://hcfy.app/blog/2021/08/03/page-translate-issue",
     "filter": {
       "versionStart": "8.4.2",
       "versionEnd": "8.4.2"
@@ -13,7 +13,7 @@
     "id": 7,
     "title": "划词后无响应、设置页打不开的解决方案",
     "text": "v8.5.1 的划词翻译在 Chrome 中会出现划词后无响应、设置页打不开等问题，我已提交了 v8.5.2 解决了这个问题，在通过审核之前，你可以通过离线安装包立刻安装 v8.5.2 版本。详情请点击下方的“查看详情”链接。",
-    "link": "https://hcfy.limingkai.cn/blog/2021/08/11/crash",
+    "link": "https://hcfy.app/blog/2021/08/11/crash",
     "filter": {
       "versionStart": "8.5.1",
       "versionEnd": "8.5.1"
