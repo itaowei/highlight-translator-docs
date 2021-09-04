@@ -16,7 +16,7 @@ module.exports = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-  clientModules: [require.resolve('./src/redirects.js')],
+  scripts: ['/redirects.js'],
   themeConfig: {
     navbar: {
       title: '划词翻译',
