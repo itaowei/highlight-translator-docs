@@ -39,8 +39,8 @@ module.exports = {
         },
       ],
     },
-    googleAnalytics: {
-      trackingID: 'UA-163159722-1',
+    gtag: {
+      trackingID: 'G-7LH0RDLC8T',
     },
     googleAdsense: {
       dataAdClient: 'ca-pub-7015533392136941',
