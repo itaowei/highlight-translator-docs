@@ -2,7 +2,8 @@
 // https://github.com/hhk7734/docusaurus-plugin-google-adsense/issues/2
 window.ga = function () {}
 
-const { search } = location
+const { search, hostname } = location
+const isLocal = hostname === 'localhost'
 const hasInviteCode = search.startsWith('?i=')
 
 /**
