@@ -6,6 +6,7 @@
 
 - [#1146](https://github.com/lmk123/crx-selection-translate/issues/1146) 完善网页全文翻译的链接识别逻辑。
 - [#815](https://github.com/lmk123/crx-selection-translate/issues/815) 将”拖动后自动切换为固定模式“做成了一个选项并可以关闭。
+- [#1154](https://github.com/lmk123/crx-selection-translate/issues/1154) 将截图翻译和网页全文翻译功能按钮加入到扩展弹出页当中。
 
 ## v8.5.6 {#v8-5-6}
 
