@@ -41,7 +41,10 @@
     </form>
     <script>
       ;(() => {
-        const root = 'https://hs-api.limingkai.cn'
+        const root =
+          location.hostname === 'localhost'
+            ? 'https://hcfy.local.dev'
+            : 'https://hs-api.limingkai.cn'
 
         const form1 = document.getElementById('form1')
         const form2 = document.getElementById('form2')
