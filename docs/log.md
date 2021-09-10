@@ -1,5 +1,11 @@
 # 更新日志
 
+## v8.6.0（未发布） {#v8-6-0}
+
+#### 功能改进 {#v8-6-0-improve}
+
+- [#1044](https://github.com/lmk123/crx-selection-translate/issues/1044) 网页全文翻译现已支持 `.txt` 文件。
+
 ## v8.5.7 {#v8-5-7}
 
 2021 年 9 月 10 日
