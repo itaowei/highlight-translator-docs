@@ -13,7 +13,7 @@
 - [#1146](https://github.com/lmk123/crx-selection-translate/issues/1146) 完善网页全文翻译的链接识别逻辑。
 - [#815](https://github.com/lmk123/crx-selection-translate/issues/815) 将”拖动后自动切换为固定模式“做成了一个选项并可以关闭。
 - [#1154](https://github.com/lmk123/crx-selection-translate/issues/1154) 将截图翻译和网页全文翻译功能按钮加入到扩展弹出页当中。
-- [#1052](https://github.com/lmk123/crx-selection-translate/issues/1052) 将源文本处理中的“去掉换行符”改为“换行符替换成空格”。
+- [#1052](https://github.com/lmk123/crx-selection-translate/issues/1052) 将源文本处理中的“去掉换行符”和“去掉双斜线”的“去掉”行为改为“替换成空格”。
 
 ## v8.5.6 {#v8-5-6}
 
