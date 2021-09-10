@@ -1,6 +1,10 @@
 # 更新日志
 
-## v8.5.7（未发布） {#v8-5-7}
+## v8.5.7 {#v8-5-7}
+
+#### 新功能 {#v8-5-7-features}
+
+- [#1110](https://github.com/lmk123/crx-selection-translate/issues/1110) 源文本处理现在可以自行添加正则表达式来替换文本了。
 
 #### 功能改进 {#v8-5-7-improve}
 
