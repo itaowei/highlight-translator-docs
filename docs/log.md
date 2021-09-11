@@ -5,6 +5,7 @@
 #### 功能改进 {#v8-6-0-improve}
 
 - [#1044](https://github.com/lmk123/crx-selection-translate/issues/1044) 网页全文翻译现已支持 `.txt` 文件。
+- [#1156](https://github.com/lmk123/crx-selection-translate/issues/1156) 将鼠标悬浮取词改为全局生效。
 
 ## v8.5.7 {#v8-5-7}
 
