@@ -5,7 +5,9 @@
 #### 功能改进 {#v8-6-0-improve}
 
 - [#1044](https://github.com/lmk123/crx-selection-translate/issues/1044) 网页全文翻译现已支持 `.txt` 文件。
+- [#1163](https://github.com/lmk123/crx-selection-translate/issues/1163) 网页全文翻译现已支持翻译使用了 [Shadow DOM](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components/Using_shadow_DOM) 的网页。
 - [#1156](https://github.com/lmk123/crx-selection-translate/issues/1156) 将鼠标悬浮取词改为全局生效。
+- [#1164](https://github.com/lmk123/crx-selection-translate/issues/1164) 点击扩展弹出页的功能按钮（网页全文翻译、截图翻译等）后会自动关闭扩展弹出页了。
 
 ## v8.5.7 {#v8-5-7}
 
