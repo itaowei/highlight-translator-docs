@@ -5,9 +5,10 @@
 #### 功能改进 {#v8-6-0-improve}
 
 - [#1044](https://github.com/lmk123/crx-selection-translate/issues/1044) 网页全文翻译现已支持 `.txt` 文件。
-- [#1163](https://github.com/lmk123/crx-selection-translate/issues/1163) 网页全文翻译现已支持翻译使用了 [Shadow DOM](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components/Using_shadow_DOM) 的网页。
+- [#1163](https://github.com/lmk123/crx-selection-translate/issues/1163) 网页全文翻译现已支持使用了 [Shadow DOM](https://developer.mozilla.org/zh-CN/docs/Web/Web_Components/Using_shadow_DOM) 的网页。
 - [#1156](https://github.com/lmk123/crx-selection-translate/issues/1156) 将鼠标悬浮取词改为全局生效。
 - [#1164](https://github.com/lmk123/crx-selection-translate/issues/1164) 点击扩展弹出页的功能按钮（网页全文翻译、截图翻译等）后会自动关闭扩展弹出页了。
+- [#1168](https://github.com/lmk123/crx-selection-translate/issues/1168) 由于[谷歌翻译的备用接口现在需要开梯子才能用了](/blog/2021/09/22/google-force-com)，所以现在当谷歌翻译 5 秒内没有翻译结果就显示一个提示链接，指向文档里的常见问题。
 
 #### bug 修复 {#v8-6-0-bug}
 
