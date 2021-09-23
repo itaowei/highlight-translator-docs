@@ -9,6 +9,10 @@
 - [#1156](https://github.com/lmk123/crx-selection-translate/issues/1156) 将鼠标悬浮取词改为全局生效。
 - [#1164](https://github.com/lmk123/crx-selection-translate/issues/1164) 点击扩展弹出页的功能按钮（网页全文翻译、截图翻译等）后会自动关闭扩展弹出页了。
 
+#### bug 修复 {#v8-6-0-bug}
+
+- [#1166](https://github.com/lmk123/crx-selection-translate/issues/1166) 修复自 v7.6.0 起出现 `Extension context invalidated` 错误时没有显示刷新网页的提示的问题。
+
 ## v8.5.7 {#v8-5-7}
 
 2021 年 9 月 10 日
