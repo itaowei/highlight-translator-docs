@@ -1,6 +1,6 @@
 # 更新日志
 
-## v8.6.0（未发布） {#v8-6-0}
+## v8.6.0 {#v8-6-0}
 
 #### 功能改进 {#v8-6-0-improve}
 
@@ -9,6 +9,8 @@
 - [#1156](https://github.com/lmk123/crx-selection-translate/issues/1156) 将鼠标悬浮取词改为全局生效。
 - [#1164](https://github.com/lmk123/crx-selection-translate/issues/1164) 点击扩展弹出页的功能按钮（网页全文翻译、截图翻译等）后会自动关闭扩展弹出页了。
 - [#1168](https://github.com/lmk123/crx-selection-translate/issues/1168) 由于[谷歌翻译的备用接口现在需要开梯子才能用了](/blog/2021/09/22/google-force-com)，所以现在当谷歌翻译 5 秒内没有翻译结果就显示一个提示链接，指向文档里的常见问题。
+- [#1160](https://github.com/lmk123/crx-selection-translate/issues/1160) 由于自 Chrome 93 起，在浏览器自带的 PDF 阅读器里通过右键菜单打开划词翻译内置 PDF 阅读器的方法失效了，所以改为了自动检测网页中的 PDF 文件并给出提示的方式来打开内置 PDF 阅读器。
+- [#1010](https://github.com/lmk123/crx-selection-translate/issues/1010) 网页全文翻译的双语模式下，为了在视觉上让译文跟原文做出区分，所以用虚线框住了译文。
 
 #### bug 修复 {#v8-6-0-bug}
 
