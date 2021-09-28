@@ -1,3 +1,5 @@
+import AdSense from 'react-adsense'
+
 # 划词翻译大事记
 
 ## 2021 年 6 月 5 日 {#2021-06-05}
@@ -63,3 +65,11 @@
 我[在百度贴吧发布了第一个版本：右键百度翻译](https://tieba.baidu.com/p/2335863519)。帖子不知为何被百度删了，现在只有我自己能看得到。
 
 这个版本很简单，划选页面上的单词后，会使用百度翻译查询翻译结果并显示在网页上。
+
+<AdSense.Google
+style={{ display: 'block', textAlign: 'center' }}
+layout="in-article"
+format="fluid"
+client="ca-pub-7015533392136941"
+slot="7527831842"
+/>
