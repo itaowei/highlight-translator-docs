@@ -346,7 +346,7 @@
 
 #### 新功能 {#v7-6-0-features}
 
-- 添加使用[翻译积分](services/tp.md)获取翻译结果的功能。
+- 添加使用[翻译积分](services/tp.mdx)获取翻译结果的功能。
 - [#973](https://github.com/lmk123/crx-selection-translate/issues/973) 在划词设置中添加了“在文本框内不触发翻译”的选项。
 
 #### 功能改进 {#v7-6-0-improve}
@@ -372,25 +372,25 @@
 
 #### 新功能 {#v7-5-14-features}
 
-添加[彩云小译](services/caiyun-api.md)和[搜狗翻译](services/sg-api.md)。
+添加[彩云小译](services/caiyun-api.mdx)和[搜狗翻译](services/sg-api.mdx)。
 
 ## v7.5.13 {#v7-5-13}
 
 #### 新功能 {#v7-5-13-features}
 
-添加[腾讯翻译君](services/qq-api.md)。
+添加[腾讯翻译君](services/qq-api.mdx)。
 
 ## v7.5.12 {#v7-5-12}
 
 #### 新功能 {#v7-5-12-features}
 
-添加[阿里翻译](services/ali-api.md)。
+添加[阿里翻译](services/ali-api.mdx)。
 
 ## v7.5.11 {#v7-5-11}
 
 #### 新功能 {#v7-5-11-features}
 
-添加[自定义翻译源](services/custom-api.md)功能。
+添加[自定义翻译源](services/custom-api.mdx)功能。
 
 ## v7.5.10 {#v7-5-10}
 
