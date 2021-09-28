@@ -1,6 +1,6 @@
 # 翻译 PDF 文件
 
-划词翻译内置了一个 PDF 阅读器（基于 [PDF.js](https://mozilla.github.io/pdf.js/) 二次开发），在内置 PDF 阅读器里打开的 PDF 文件可以正常使用[划词](cross.md)、[截图](screenshot.md)翻译等功能。
+划词翻译内置了一个 PDF 阅读器（基于 [PDF.js](https://mozilla.github.io/pdf.js/) 二次开发），在内置 PDF 阅读器里打开的 PDF 文件可以正常使用[划词](cross.mdx)、[截图](screenshot.md)翻译等功能。
 
 ## 如何打开内置 PDF 阅读器 {#how}
 
