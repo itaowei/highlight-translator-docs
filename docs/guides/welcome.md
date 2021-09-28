@@ -11,4 +11,4 @@
 - 划词翻译在一些特定的页面（例如扩展商店）里只能使用右键菜单的【翻译这段文本】进行翻译，其它功能（划词、截图、网页全文等）全都是无效的，[这是浏览器自身的安全限制](../faq.mdx#why-can-not-use-in-store)。
 - 想要翻译 PDF 文件或是电脑里的 `.txt`、`.html` 等文件的方法请查看[常见问题](../faq.mdx#how-pdf)。
 - 如果你开启了代理软件，请[将各个翻译服务的地址加入直连名单](../faq.mdx#proxy)。
-- 如果你用的是 Firefox 浏览器，请阅读 [Firefox 使用须知](firefox.md)。
+- 如果你用的是 Firefox 浏览器，请阅读 [Firefox 使用须知](firefox.mdx)。
