@@ -1,3 +1,5 @@
+import AdSense from 'react-adsense'
+
 # 网页全文翻译
 
 如果你觉得多次[网页划词](cross.mdx)比较繁琐，也可以使用网页全文翻译功能一次性翻译整个网页的文本。
@@ -24,7 +26,7 @@
 
 如果这个链接是被文本包围的，那么这段文本在译文里确实是没有链接的，这是符合预期的——因为划词翻译将包含此链接的整段文本作为一个整体进行翻译了，这样能获得最佳的翻译结果；如果为了保留链接而将这段文本拆分后再翻译，那么得到的翻译结果是不准确的。
 
-举个例子，“这句话里有一个[链接](page.md)，链接两边是有文字的。”作为一个整体翻译时，译文是 “There is a link in this sentence, and the link is flanked by text.”，但如果为了保留链接而将它拆分成三个部分翻译，那么译文将会是 “In this sentence there is a [Link](page.md), there is text on both sides of the link.”。
+举个例子，“这句话里有一个[链接](page.mdx)，链接两边是有文字的。”作为一个整体翻译时，译文是 “There is a link in this sentence, and the link is flanked by text.”，但如果为了保留链接而将它拆分成三个部分翻译，那么译文将会是 “In this sentence there is a [Link](page.mdx), there is text on both sides of the link.”。
 
 #### 第二种情况：链接没有被文本包围
 
@@ -39,3 +41,11 @@
 ### 在内置 PDF 阅读器中无效
 
 由于 PDF 文件的结构比较特殊，所以网页全文翻译功能在[内置 PDF 阅读器](pdf.md)里确实是无效的。
+
+<AdSense.Google
+  style={{ display: 'block', textAlign: 'center' }}
+  layout="in-article"
+  format="fluid"
+  client="ca-pub-7015533392136941"
+  slot="7527831842"
+/>
