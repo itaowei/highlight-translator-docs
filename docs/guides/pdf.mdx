@@ -1,3 +1,5 @@
+import AdSense from 'react-adsense'
+
 # 翻译 PDF 文件
 
 划词翻译内置了一个 PDF 阅读器（基于 [PDF.js](https://mozilla.github.io/pdf.js/) 二次开发），在内置 PDF 阅读器里打开的 PDF 文件可以正常使用[划词](cross.mdx)、[截图](screenshot.md)翻译等功能。
@@ -22,13 +24,26 @@
 这个问题短期内无法修复，遇到这种情况时，请使用[截图翻译](./screenshot.md)。
 
 <details>
-<summary>为什么不修复这个问题？</summary>
-<p>划词翻译的内置 PDF 阅读器使用的是第三方的 <a href="https://mozilla.github.io/pdf.js/" target="_blank" rel="noreferrer noopener">PDF.js</a>，这个问题 PDF.js 一直没有修复，而由我自己来修复的话就会有以下两个问题：</p>
-<ol>
-<li>难度很大，可能会耗费大量时间而且不能成功修复。</li>
-<li>即使我能修复这个问题，那以后升级 PDF.js 的版本时我就得始终确保我的修复代码跟它们的新版本是兼容的。</li>
-</ol>
-综合来看，直接用截图翻译的形式更简单便捷。
+  <summary>为什么不修复这个问题？</summary>
+  <p>
+    划词翻译的内置 PDF 阅读器使用的是第三方的{' '}
+    <a
+      href="https://mozilla.github.io/pdf.js/"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      PDF.js
+    </a>
+    ，这个问题 PDF.js 一直没有修复，而由我自己来修复的话就会有以下两个问题：
+  </p>
+  <ol>
+    <li>难度很大，可能会耗费大量时间而且不能成功修复。</li>
+    <li>
+      即使我能修复这个问题，那以后升级 PDF.js
+      的版本时我就得始终确保我的修复代码跟它们的新版本是兼容的。
+    </li>
+  </ol>
+  综合来看，直接用截图翻译的形式更简单便捷。
 </details>
 
 ### 网页全文翻译功能无效 {#page}
@@ -38,3 +53,11 @@
 ### 没有标注功能 {#mark}
 
 我确实计划添加标注功能，但我暂时没有时间着手开发，建议你在外部 PDF 阅读器中使用划词翻译，具体方式见[翻译浏览器外的内容](./extra.mdx)。
+
+<AdSense.Google
+  style={{ display: 'block', textAlign: 'center' }}
+  layout="in-article"
+  format="fluid"
+  client="ca-pub-7015533392136941"
+  slot="7527831842"
+/>
