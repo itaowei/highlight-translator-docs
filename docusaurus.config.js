@@ -18,6 +18,13 @@ module.exports = {
   },
   scripts: ['/redirects6.js'],
   themeConfig: {
+    announcementBar: {
+      id: '2021-10-7-deepl-crash',
+      content:
+        '<a rel="noopener noreferrer" href="/blog/2021/10/07/deepl-error">关于 DeepL 报错”找不到target的语种下拉框“的公告</a>',
+      textColor: '#ff0000',
+      isCloseable: false,
+    },
     navbar: {
       title: '划词翻译',
       logo: {
