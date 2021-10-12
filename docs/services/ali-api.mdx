@@ -34,7 +34,6 @@ import AdSense from 'react-adsense'
 
 简而言之，在这里创建的 AccessKey 能调用你账号下的所有资源，权限范围太大了，一旦泄露的话影响面很大，所以阿里云建议你创建一个子用户，然后给这个子用户只分配机器翻译的权限，这样的话即使泄露了也只会影响到机器翻译。
 
-但是，**阿里云的子用户还不支持分配机器翻译的访问权限，所以只能在这里创建 AccessKey**。见[支持 RAM 的云服务列表](https://help.aliyun.com/document_detail/28630.html?source=5176.11533457&userCode=wsnup3vv)。
 
 #### 使用云账号 AccessKey（更便捷，但不保险） {#use-main}
 
@@ -52,7 +51,46 @@ import AdSense from 'react-adsense'
 
 #### 使用子用户 AccessKey（更安全，但步骤繁琐） {#use-sub}
 
-等阿里云支持使用子用户调用机器翻译时，我会更新这里的步骤。
+如果要用子用户 AccessKey，那么选择【开始使用子用户 AccessKey】即可。
+
+![安全提示](https://user-images.githubusercontent.com/19475586/136928837-0fd9bc51-00ad-4156-8ea5-2bc9a42b58d1.png)
+
+##### 第一步：创建并填写用户信息 {#use-sub-fill}
+
+然后点击【创建用户】按钮：
+
+![创建用户](https://user-images.githubusercontent.com/19475586/136929192-e7960fbd-a6a0-46ac-8f52-0833398e4fe8.png)
+
+点击之后需要填写用户信息：
+
+- 设置登录名称：huacifanyi
+- 填写显示名称：划词翻译
+- 访问方式：勾选【Open API 调用访问】。
+
+完成之后点击【确定】。
+
+![填写用户信息](https://user-images.githubusercontent.com/19475586/136929664-3b4cccf6-a0ce-44b7-9396-e26c7405096d.jpg)
+
+点击之后会让你输入手机短信验证码，输入之后会看到创建成功的 【AccessKey ID】 和 【AccessKey Secret】，如下图：
+
+![AccessKey](https://user-images.githubusercontent.com/19475586/136931162-d2d9deae-ea9b-450b-b775-444594331cc3.png)
+
+##### 第二步：设置用户权限 {#use-sub-permissions}
+
+勾选刚刚创建的用户并点击【添加权限】：
+
+![添加权限](https://user-images.githubusercontent.com/19475586/136931824-ba775da2-a876-4f2a-a26d-593116259774.png)
+
+搜索“机器翻译”，单击选中【AliyunMTFullAccess】和【AliyunMTReadOnlyAccess】这两项即可，然后点击【确定】：
+
+![机器翻译](https://user-images.githubusercontent.com/19475586/136932199-1863ce3f-589f-4cbf-96a0-b5992fa7857a.png)
+
+##### 第三步：审阅信息 {#use-sub-confirm}
+
+这一步只需要点击【完成】按钮即可，然后就会看到这个子账户的【AccessKey ID】 和 【AccessKey Secret】，如下图：
+
+![AccessKey](https://user-images.githubusercontent.com/19475586/136931162-d2d9deae-ea9b-450b-b775-444594331cc3.png)
+
 
 ### 第三步：在划词翻译中填写 AccessKey {#fill-in}
 
